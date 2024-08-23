@@ -1,22 +1,15 @@
-import React, { useState } from 'react';
-import Header from './components/Header';
-import './App.css';
+import React from 'react';
+import RegisterForm from './components/RegisterForm';
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const handleLogin = () => {
-    // Here you would normally do authentication logic
-    console.log("Login button clicked!");
-    setIsLoggedIn(true);
-  };
-
   return (
     <div className="App">
-      <Header isLoggedIn={isLoggedIn} onLogin={handleLogin} />
-      {/* The rest of your application */}
+      <h1>Register</h1>
+      <RegisterForm />
     </div>
   );
 };
 
 export default App;
+
+
