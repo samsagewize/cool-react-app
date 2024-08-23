@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.App {
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: #444;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
